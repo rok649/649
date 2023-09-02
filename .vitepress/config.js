@@ -122,7 +122,7 @@ export default defineConfig({
         //   }
         // ]
     ],
-    base: "/", // 基础url
+    base: "/649/", // 基础url
     themeConfig: {
         outlineTitle: '本页导航',
         lastUpdatedText: "最后修改",
