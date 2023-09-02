@@ -1,8 +1,5 @@
 import {defineConfig} from 'vitepress';
-import algorithm from "./algorithm";
 import mathjax3 from "markdown-it-mathjax3";
-import theoreticalCalc from "./theoreticalCalc";
-import game from "./game";
 // https://vitepress.dev/reference/site-config
 const customElements = [
     'math',
@@ -137,44 +134,6 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '首页', link: '/'},
-            {text: "算法", link: "/algorithm/"},
-            {
-                text: "三方应用",
-                items: [
-                    {text: "Stackblitz", link: "https://stackblitz.com/"},
-                    {text: "VitePress", link: "https://vitepress.dev/"},
-                ],
-            },
-            {
-                text: "理论计算",
-                items: [
-                    {text: "VASP Wiki", link: "https://www.vasp.at/wiki/index.php/The_VASP_Manual"},
-                    {text: "Material Project", link: "https://materialsproject.org/"},
-                    {text: "Crystallography Open Database", link: "http://www.crystallography.net/cod/search.html"},
-                    {text: "Crystallography Open Database", link: "http://www.crystallography.net/cod/search.html"},
-                    {text: "VASPKIT", link: "http://vaspkit.sourceforge.net/"}
-                ],
-            },
-            {
-                text: "科研",
-                items: [
-                    {text: "Web of Science", link: "http://apps.webofknowledge.com/"},
-                    {text: "万方数据", link: "http://www.wanfangdata.com.cn/index.html"},
-                    {text: "谷歌学术", link: "https://scholar.google.com/"}
-                ],
-            },
-            {
-                text: "笔记",
-                items: [
-                    {text: "理论计算", link: "/theoreticalCalc/"},
-                    {text: "高对称点选取", link: "https://www.cryst.ehu.es/rep/repres.html"},
-                    {text: "高对称点选取2", link: "https://www.materialscloud.org/work/tools/seekpath"},
-                    {text: "操作系统", link: "/notes/操作系统"},
-                    {text: "计算机组成原理", link: "/notes/计算机组成原理/"},
-                    {text: "JavaScript", link: "/notes/JavaScript/"},
-                    {text: "Game", link: "/game/"}
-                ],
-            },
             {text: "关于", link: "/about/"},
         ],
         sidebar: {
@@ -187,34 +146,6 @@ export default defineConfig({
                     ],
                 },
             ],
-            "/vitepress/": [],
-            "/algorithm/": algorithm,
-            "/theoreticalCalc/": theoreticalCalc,
-            "/notes/计算机组成原理/": [
-                {
-                    text: "简介",
-                    items: [
-                        {
-                            text: "计算机硬件的基本组成",
-                            link: "/notes/计算机组成原理/计算机硬件的基本组成"
-                        },
-                        {
-                            text: "各个硬件的工作原理",
-                            link: "/notes/计算机组成原理/各个硬件的工作原理"
-                        },
-                        {
-                            text: "计算机系统的层次结构",
-                            link: "/notes/计算机组成原理/计算机系统的层次结构"
-                        }
-                    ]
-                }
-            ],
-            "/notes/JavaScript/": [
-                {
-                    text: "JavaScript问题综合",
-                }
-            ],
-            "/game/": game
         },
         socialLinks: [
             {icon: 'github', link: 'https://github.com/zh601095001/blogs'},

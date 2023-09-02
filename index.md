@@ -1,28 +1,11 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# 649公告
+## B盟需要加以下两个群
 
-hero:
-  name: "ZHAO 2023"
-#  text: "记录日常"
-  tagline: 记录日常
-  actions:
-    - theme: brand
-      text: 算法
-      link: /algorithm/
-    - theme: brand
-      text: 理论计算
-      link: /theoreticalCalc/
-    - theme: alt
-      text: 关于
-      link: /about/
+![](https://typro-zh.oss-cn-shanghai.aliyuncs.com/imgs/5d982f21e5312ebcbd0fe022ef4d4c1.jpg)
 
-features:
-  - title: Time
-    details: All time is no time when it is past.
-  - title: Diligence
-    details: Diligence is the mother of success.
-  - title: Practice
-    details: Practice makes perfect.
----
+![](https://typro-zh.oss-cn-shanghai.aliyuncs.com/imgs/738b1c28e72c36f13beaec1e52e54a0.jpg)
 
+::: warning 特别注意
+1. 临时在B盟贡献的也需要加以上两个群（未加群，在B盟所做贡献无效）
+2. 上面边的王国群所有人都需要加！！
+   :::
