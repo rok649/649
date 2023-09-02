@@ -91,8 +91,8 @@ const customElements = [
     'mjx-assistive-mml',
 ];
 export default defineConfig({
-    title: "ZH的博客",
-    description: "记录日常",
+    title: "649",
+    description: "649",
     cleanUrls: true,
     rewrites: { // 路径重写
     },
@@ -134,7 +134,6 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: '首页', link: '/'},
-            {text: "关于", link: "/about/"},
         ],
         sidebar: {
             "/example/": [
@@ -148,7 +147,7 @@ export default defineConfig({
             ],
         },
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/zh601095001/blogs'},
+            {icon: 'github', link: 'https://github.com/rok649/'},
         ],
         docFooter: {
             prev: "上一页",
@@ -156,10 +155,10 @@ export default defineConfig({
         },
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2023-present ZH',
+            copyright: 'Copyright © 2023-present rok649',
         },
         editLink: {
-            pattern: "https://github.com/zh601095001/blogs/blob/master/:path",
+            pattern: "https://github.com/rok649/",
             text: "Edit this page on GitHub"
         }
     },
