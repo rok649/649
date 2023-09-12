@@ -136,15 +136,6 @@ export default defineConfig({
             {text: '首页', link: '/'},
         ],
         sidebar: {
-            "/example/": [
-                {
-                    text: 'Examples',
-                    items: [
-                        {text: 'Markdown Examples', link: '/example//markdown-examples'},
-                        {text: 'Runtime API Examples', link: '/example/api-examples'},
-                    ],
-                },
-            ],
         },
         socialLinks: [
             {icon: 'github', link: 'https://github.com/rok649/'},
