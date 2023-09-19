@@ -2,7 +2,7 @@
 
 ## 王国统战群
 
-<img style="width: 50%" src="https://typro-zh.oss-cn-shanghai.aliyuncs.com/imgs/00f810d334fc773a5635c7e452c2f62.jpg">
+<img style="width: 50%" src="https://typro-zh.oss-cn-shanghai.aliyuncs.com/imgs/a7da1b057b61c4c53a06b074c08efa2.jpg">
 
 
 ## 王国信息
